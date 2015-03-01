@@ -1,0 +1,130 @@
+@import url(http://fonts.googleapis.com/css?family=Exo);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+body{
+    background-color:#8F3A6A;
+}
+
+h3{
+    color:darkred;
+    font-size:20pt;
+    top:40px;
+    position:relative;
+}
+
+header{
+	text-align:center;
+	font-family: 'Poiret One', cursive;
+	font-size:25pt;
+	color:#ffffff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	margin:40px;
+	font-size:40pt;
+}
+
+.page{
+	border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+	border: 0px solid #000000;
+
+    background:#D09F36;
+
+    width: 600px;
+    height: 325px;
+
+	font-family: 'Exo', cursive;
+	font-size:25pt;
+	color:#ffffff;
+	transition: all .1s linear;
+	margin-left:auto;
+	margin-right:auto;
+
+	font-family: 'Poiret One', cursive; 
+}
+
+
+.pageFailed{
+	border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+	border: 0px solid #000000;
+
+    background:#D09F36;
+
+    width: 600px;
+    height: 400px;
+
+	font-family: 'Exo', cursive;
+	font-size:25pt;
+	color:#ffffff;
+	transition: all .1s linear;
+	margin-left:auto;
+	margin-right:auto;
+
+	font-family: 'Poiret One', cursive; 
+}
+
+.pgtxt{
+    text-align:center;
+    position:relative;
+    top:25px;
+}
+
+form{
+    position:relative;
+    top:15%;   
+}
+
+input{
+    height:30px;
+    margin:15px;
+    font-size:25px;
+}
+
+.submit{  
+    background-color:#8F3A6A;
+    width: 220px;
+    height: 50px;
+    margin:65px;
+    text-decoration:
+
+    border-radius: 62px 62px 62px 62px;
+	-moz-border-radius: 62px 62px 62px 62px;
+	-webkit-border-radius: 62px 62px 62px 62px;
+
+	transition-property: background;
+	transition-duration:.2s;
+	transition-timing-function: ease-in;
+	transition: all.2s linear;
+   
+    box-shadow: 0 3px 0 #006599;
+}
+
+.buttonText{
+    margin:auto;
+    margin-left:65px;
+    margin-top:5px;
+    position:absolute;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.submit:hover, .submitFailed:hover{
+    background-color:#A56187;
+}
+
+.submit:active,.submitFailed:active{
+ 	box-shadow: 0 1px 0 #006599;
+	transform: translateY(2px);
+	-webkit-transform: translateY(3px);   
+}

@@ -1,0 +1,36 @@
+body
+{
+	background-color:#204479;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	top:10%;
+	left:37%;
+	position:absolute;
+}
+
+.canvasHolder
+{
+	
+	border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+	border: 0px solid #000000;
+
+    background:#f4dd7c;
+    width: 600px;
+    height: 900px;
+    position:absolute;
+	left:34%;
+	top:6%;
+
+	font-family: 'Exo', cursive;
+	font-size:25pt;
+	color:#ffffff;
+	transition: all .1s linear;
+}

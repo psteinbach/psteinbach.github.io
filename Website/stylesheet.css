@@ -1,0 +1,391 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Exo);
+
+header{
+font-family: 'Poiret One', cursive;
+font-size:25pt;
+color:#ffffff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+body{
+background-color:#5d60ff;
+}
+
+.page{
+	border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+	border: 0px solid #000000;
+
+    background:#f4dd7c;
+
+    width: 1030px;
+    height: 200px;
+    position:relative;
+
+	font-family: 'Exo', cursive;
+	font-size:25pt;
+	color:#ffffff;
+	transition: all .1s linear;
+}
+
+
+.aboutMe, .assignments, .oldSite, .comingSoon{
+    width: 300px;
+    height: 120px;
+
+    border-radius: 62px 62px 62px 62px;
+	-moz-border-radius: 62px 62px 62px 62px;
+	-webkit-border-radius: 62px 62px 62px 62px;
+
+	transition-property: background;
+	transition-duration:.2s;
+	transition-timing-function: ease-in;
+	transition: all.2s linear;
+   
+    box-shadow: 0 5px 0 #006599;
+   
+    position: absolute;
+}
+
+
+.backButton{
+	height: 98%;
+	width: 98%;
+	position:absolute;
+	opacity:0;
+}
+
+.aboutMe{
+	top: 35px;
+    left: 35px;
+	background:#c97cf4;
+}
+.aboutMe:hover{
+	background: #e3b8f9;
+}
+
+
+#aboutMeTxt, #assignmentsPageTxt{
+	margin:35px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.aboutMePage{
+	width: 1px;
+	height:1px;
+	
+	background:#c97cf4;
+	opacity:0;
+
+    border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+
+	transition-property: background;
+	transition: all .2s ease-in;
+   
+    box-shadow: 0 5px 0 #006599;
+	position: absolute;
+	top:-38px;
+	left:-35px;
+}
+
+#aboutMePageTxt, #assignmentsPageTxt{
+	margin:35px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	white-space:nowrap;
+	pointer-events: none;
+}
+
+.aboutMePage_clicked{
+	opacity:1;
+	width: 1030px;
+	height:550px;
+	background:#c97cf4;
+
+    border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+
+	transition-property: background;
+	transition: all .2s ease-in;
+   
+    box-shadow: 0 5px 0 #006599;
+	position: absolute;
+	top:-35px;
+	left:-35px;
+}
+
+
+.assignments{
+    top: 35px;
+    left: 365px;
+    background:#16df6a;
+}
+.assignments:hover{
+	background: #90f4b9;
+}
+#assignmentsTxt{
+	margin:35px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.assignmentsPage{
+	width: 1px;
+	height:1px;
+	
+	background:#16df6a;
+	opacity:0;
+
+    border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+
+	transition-property: background;
+	transition: all .2s ease-in;
+   
+    box-shadow: 0 5px 0 #006599;
+	position: absolute;
+	top:-38px;
+	left:-35px;
+}
+
+.assignmentsPage_clicked{
+	opacity:1;
+	width: 1030px;
+	height:550px;
+	background:#16df6a;
+
+    border-radius: 0px 62px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 0px 62px 62px 62px;
+
+	transition-property: background;
+	transition: all .2s ease-in;
+   
+    box-shadow: 0 5px 0 #006599;
+	position: absolute;
+	top:-35px;
+	left:-365px;
+}
+
+.oldSite{
+    top: 35px;
+    right: 35px;
+    background:#ea542e;
+}
+.oldSite:hover{
+	background: #f2947d;
+}
+#oldSiteTxt{
+	margin:35px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.comingSoon{
+    background:#000000;
+	top:0;
+	opacity:0;
+}
+
+#comingSoonTxt{
+	margin:35px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.aboutMe:active,.assignments:active,.oldSite:active{
+	box-shadow: 0 2px 0 #006599;
+	transform: translateY(3px);
+	-webkit-transform: translateY(3px);
+}
+
+/*
+.assignments:active .comingSoon{
+	transform: translateY(200px);
+	-webkit-transform: translateY(200px);
+	opacity:1;
+}
+*/
+
+.aboutMePage_clicked  .photoCircle, .assignmentsPage_clicked .photoCircle{
+	opacity:1;
+	width: 275px;
+    height: 275px;
+	transform: translateY(230px);
+	-webkit-transform: translateY(230px);
+}
+
+.photoCircle{
+	width: 1px;
+    height: 1px;
+	
+	transition: all .5s ease-in;
+	
+
+    border-radius: 62px 62px 62px 62px;
+	-moz-border-radius: 62px 62px 62px 62px;
+	-webkit-border-radius: 62px 62px 62px 62px;
+
+    box-shadow: 0 5px 0 #006599;
+	opacity:0;
+    position: absolute;
+}
+
+#photoC1{
+	top:0px;
+	background-image: url("peter1.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+
+#photoC2{
+	top:-230px;
+	left:340px;
+	background-image: url("peter2.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+
+#photoC3{
+	top:-230px;
+	left:340px;
+	background-image: url("peter3.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+#photoC4{
+	top:-100px;
+	left:50px;
+	background-image: url("Table.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+#photoC5{
+	top:-100px;
+	left:375px;
+	background-image: url("placeholder.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+#photoC6{
+	top:-100px;
+	left:700px;
+	background-image: url("placeholder.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+.loginPane{
+    border-radius: 0px 0px 62px 62px;
+	-moz-border-radius: 0px 62px 62px 62px;
+	-webkit-border-radius: 30px 0px 0px 30px;
+	border: 1px solid #000000;
+    
+    animation-delay:.5s;
+    -moz-animation-delay:.5s;
+    -webkit-animation-delay:.5s;
+    font-family: 'Poiret One', cursive;
+    color:white;
+    font-size:20pt;
+    height:400px;
+    width:350px;
+    position:absolute;
+    right:0;
+    top:27%;
+    background-color:rgba(84,84,84,0.2);
+    transition-property: background;
+	transition: all .2s ease-in;
+}
+
+.loginPane::before{
+     filter:blur(5px);
+    -moz-filter:blur(5px);
+    -webkit-filter:blur(5px);   
+}
+
+.loginTxt{
+    position:absolute;
+    top:7px;
+    left:43%;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#closeButton{
+    position: absolute;
+    top:45%;
+    left:5px;
+}
+
+#openButton{
+    position: absolute;
+    top:45%;
+    left:5px;
+    opacity:0;
+    pointer-events: none;
+}
+
+.closedLogin{
+     border-radius: 30px 0px 0px 30px;
+	-moz-border-radius: 30px 0px 0px 30px;
+	-webkit-border-radius: 30px 0px 0px 30px;
+	border: 1px solid #000000;
+    
+    animation-delay:.5s;
+    -moz-animation-delay:.5s;
+    -webkit-animation-delay:.5s;
+    font-family: 'Poiret One', cursive;
+    color:white;
+    font-size:20pt;
+    
+    width:30px;
+    height:400px;
+    position:absolute;
+    right:0;
+    top:27%;
+    background-color:rgba(84,84,84,0.2);
+	transition-property: background;
+	transition: all .2s ease-in;
+}
